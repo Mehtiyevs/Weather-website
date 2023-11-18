@@ -13,6 +13,38 @@ p {
     
 }
 
+.header {
+   background-color: rgb(193, 91, 13);
+   position: absolute;
+   top: 0;
+   
+   right: 0;
+   left: 0; 
+   
+   height: 50px;
+   display: flex;
+   
+   justify-content: center;
+   align-items: center;
+}
+
+.header-text {
+   font-weight: bold;
+   font-family:sans-serif; 
+   
+   font-style: italic;
+   font-size: 18px;
+
+}
+
+.icon {
+    position: absolute;
+    height: 50px;
+    top: 0;
+    
+}
+
+
 .flex-box {
     background-color: rgb(223, 222, 222);
     height: 400px;
